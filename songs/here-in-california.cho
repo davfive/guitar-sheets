@@ -1,0 +1,67 @@
+{t: Here in California}
+{st: by Kate Wolf arr AJ Lee; Standard tuning; Capo 3 }
+{define: G   base-fret 1 frets 3 2 0 0 3 3}
+
+{columns: 2}
+
+{sov: Verse 1}
+When I was [G]young my [D]ma-ma [G]told me
+She said [D]child take your [Em]time
+Don't [C/G]fall in love too [G]quickly
+Be[Am]fore you know your [C/G]mind
+She [G]held me [D]round the [G]shoulders
+In a [D]voice so soft and [Em]kind
+She said [C/G]love can make you [G]happy
+And [Am]love can rob you [G]blind
+{eov}
+
+{soc: Chorus}
+[C/G]Here in[D] Califor[G]nia
+[Am]The fruit hangs [D]heavy on the [Em]vines
+There's no [C/G]gold, thought I'd [G]warn you
+And the [Am]hills turn [D]brown in the summer[G]time
+{eoc}
+
+{sov: Verse 2}
+Now [G]I will [D]learn to love [G]you
+Oh but [D]I can't say [Em]when
+This mor[C/G]ning we were stra[G]ngers
+And to[Am]night we're only [C/G]friends
+But I'll [G]take my time[D] to know [G]you
+I'll [D]take my time to [Em]see
+There's [C/G]nothing I won't show [G]you
+If you [Am]take your time with [G]me
+{eov}
+
+{column_break}
+{chorus}
+{start_of: Solo}
+\relative { e a b' e }
+{end_of_ly}
+{sot}
+     1 + 2 + 3 + 4 + | 1 + 2 + 3 + 4 + | 1 + 2 + 3 + 4 + | 1 + 2 +
+1  |-------0---------|-------2-----2-3-|-----3-----3-3-3-|-----3---
+2  |-----------1---0-|-----3---3-------|-----3-----3-3-3-|-----3---
+3  |-----2-----------|---2-------------|-----0-----0-0-0-|-----0---
+4  |---2-------------|-0---------------|-----0-----3-3-3-|-----0---
+5  |-0---------------|-----------------|-----2-----------|-----2---
+6  |-----------------|-----------------|-3---3-----------|-3---3---
+                                         D   D     U D U   D   D   
+{eot}
+
+{sov: Verse 3}
+It’s an [G]old [D]familiar [G]story
+An [D]old familiar [Em]rhyme
+To every[C/G]thing there is a [G]season
+To eve[Am]ry purpose there is a [C/G]time
+A time to [G]love and [D]come to[G]gether
+A time when [D]love longs for a [Em]name
+A time for [C/G]questions we can't [G]answer
+But we [Am]ask them just the [G]same
+{eov}
+
+{chorus}
+{sov}
+And the [Am]hills turn [D]brown in the summer[G]time
+{eov}
+{c: repeat solo}
