@@ -12,6 +12,9 @@
     "pdf" : {
       "papersize" : "letter",
       "capoheading" : "%{capo|Capo: %{}}",
-      "diagrams" : { "show": "top" }
-    }
+      "diagrams" : { "show": "bottom" },
+      "labels": {
+        "comment" : "comment"
+      }
+    },
 }

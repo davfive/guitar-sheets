@@ -1,9 +1,7 @@
 {t: Here in California}
 {st: by Kate Wolf arr AJ Lee; Standard tuning; Capo 3 }
 {define: G   base-fret 1 frets 3 2 0 0 3 3}
-
 {columns: 2}
-
 {sov: Verse 1}
 When I was [G]young my [D]ma-ma [G]told me
 She said [D]child take your [Em]time
@@ -15,7 +13,8 @@ She said [C/G]love can make you [G]happy
 And [Am]love can rob you [G]blind
 {eov}
 
-{soc: Chorus}
+{soc}
+{c: Chorus}
 [C/G]Here in[D] Califor[G]nia
 [Am]The fruit hangs [D]heavy on the [Em]vines
 There's no [C/G]gold, thought I'd [G]warn you
@@ -35,19 +34,24 @@ If you [Am]take your time with [G]me
 
 {column_break}
 {chorus}
-{start_of: Solo}
-\relative { e a b' e }
+
+{start_of_ly: Solo}
+\score {
+  <<
+  \new TabStaff \with { \remove "Clef_engraver" \remove "Bar_number_engraver" }
+  { 
+    a,8 e8 a8 e'4 bis4 b8  | d8 a8 c'8 fis'8 c'4 fis'8 g8 | \break
+    g,4 <g, b, d g d' g'>4. <f g d' g'>8 <f g d' g'>8 <f g d' g'>8 | 
+    g,4 <g, b, d g d' g'>4. <g, g d' g'>8 <g, g d' g'>8 <g, g d' g'>8 | 
+  }
+  >>
+  \layout {
+    indent = #0
+    line-width = #60
+    \context { \Score \omit BarNumber }
+  } 
+}
 {end_of_ly}
-{sot}
-     1 + 2 + 3 + 4 + | 1 + 2 + 3 + 4 + | 1 + 2 + 3 + 4 + | 1 + 2 +
-1  |-------0---------|-------2-----2-3-|-----3-----3-3-3-|-----3---
-2  |-----------1---0-|-----3---3-------|-----3-----3-3-3-|-----3---
-3  |-----2-----------|---2-------------|-----0-----0-0-0-|-----0---
-4  |---2-------------|-0---------------|-----0-----3-3-3-|-----0---
-5  |-0---------------|-----------------|-----2-----------|-----2---
-6  |-----------------|-----------------|-3---3-----------|-3---3---
-                                         D   D     U D U   D   D   
-{eot}
 
 {sov: Verse 3}
 It’s an [G]old [D]familiar [G]story
