@@ -22,7 +22,7 @@
       "columns" : 1,
       // Suppress empty chord lines.
       // Overrides the -a (--single-space) command line options.
-      "suppress-empty-chords" : true,
+      "suppress-empty-chords" : false,
       // Suppress blank lyrics lines.
       "suppress-empty-lyrics" : true,
       // Suppress chords.
@@ -232,12 +232,12 @@
 
       // Page margins.
       // Note that top/bottom exclude the head/footspace.
-      "margintop"    :  80,
+      "margintop"    :  40,
       "marginbottom" :  40,
       "marginleft"   :  40,
       "marginright"  :  40,
-      "headspace"    :  60,
-      "footspace"    :  20,
+      "headspace"    :  40,
+      "footspace"    :  0,
 
       // Special: head on first page only, add the headspace to
       // the other pages so they become larger.

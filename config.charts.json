@@ -1,0 +1,8 @@
+{
+    "include": [ "guitar" ],
+    "pdf": {
+      "papersize": "letter",
+      "labels": { "comment": "comment" },
+      "diagrams": { "width": 20, "height": 20, "hspace": 2, "vspace": 1 }
+    }
+}

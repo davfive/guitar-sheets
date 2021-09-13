@@ -1,6 +1,8 @@
 {t: Here in California}
 {st: by Kate Wolf arr AJ Lee; Standard tuning; Capo 3 }
-{define: G   base-fret 1 frets 3 2 0 0 3 3}
+{define: G frets 3 2 0 0 3 3}
+{define: C/G frets 3 3 2 0 1 0}
+{define: Cadd9 frets X 3 2 0 3 3}
 {columns: 2}
 {sov: Verse 1}
 When I was [G]young my [D]ma-ma [G]told me
@@ -17,7 +19,7 @@ And [Am]love can rob you [G]blind
 {c: Chorus}
 [C/G]Here in[D] Califor[G]nia
 [Am]The fruit hangs [D]heavy on the [Em]vines
-There's no [C/G]gold, thought I'd [G]warn you
+There's no [C/G]gold, thought I'd [G]warn ya
 And the [Am]hills turn [D]brown in the summer[G]time
 {eoc}
 
@@ -38,8 +40,10 @@ If you [Am]take your time with [G]me
 {start_of_ly: Solo}
 \score {
   <<
-  \new TabStaff \with { \remove "Clef_engraver" \remove "Bar_number_engraver" }
-  { 
+  \new ChordNames \with { additionalPitchPrefix = "add" } { \chordmode { a1:min d1 g2 c2:9^7 g1 } }
+  \new TabStaff \with { 
+    \remove "Clef_engraver" \remove "Bar_number_engraver"
+  } { 
     a,8 e8 a8 e'4 bis4 b8  | d8 a8 c'8 fis'8 c'4 fis'8 g8 | \break
     g,4 <g, b, d g d' g'>4. <f g d' g'>8 <f g d' g'>8 <f g d' g'>8 | 
     g,4 <g, b, d g d' g'>4. <g, g d' g'>8 <g, g d' g'>8 <g, g d' g'>8 | 
@@ -48,7 +52,11 @@ If you [Am]take your time with [G]me
   \layout {
     indent = #0
     line-width = #60
-    \context { \Score \omit BarNumber }
+    chordChanges = ##t
+    \context { 
+      \Score \omit BarNumber
+      \override ChordName   #'font-size = #-2
+    }
   } 
 }
 {end_of_ly}
@@ -69,3 +77,13 @@ But we [Am]ask them just the [G]same
 And the [Am]hills turn [D]brown in the summer[G]time
 {eov}
 {c: repeat solo}
+
+
+
+
+
+
+
+
+
+{ci: Also show these chords: [Cadd9]}

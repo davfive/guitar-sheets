@@ -1,8 +1,15 @@
-function chordpro-song () {
-  songfile=${@: -1}
-  echo "$songfile"
-  outfile=$(echo "$songfile" | sed -E "s/\.[^\.]+$/.pdf/")
+function chogen () {
+  chofile=${@: -1}
+  outpdf=$(echo "$chofile" | sed -E "s/\.[^\.]+$/.pdf/")
 
-  (set -x ; chordpro --config=chordpro-song.json "$@" -o "$outfile")
-  open "$outfile"
+  (set -x ; chordpro --config=config.json "$@" -o "$outpdf")
+  open "$outpdf"
+}
+
+function chogen-chart () {
+  chofile=${@: -1}
+  outpdf=$(echo "$chofile" | sed -E "s/\.[^\.]+$/.pdf/")
+
+  (set -x; chordpro --config=config.charts.json "$@" -o "$outpdf")
+  open "$outpdf"
 }
