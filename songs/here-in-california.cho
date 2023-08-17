@@ -1,5 +1,5 @@
-{t: Here in California}
-{st: by Kate Wolf arr AJ Lee; Standard tuning; Capo 3 }
+{t: Here in California by Kate Wolf arr AJ Lee}
+{st: Key Bb | Capo 3 | Standard Tuning | Strum R x D x x U D U}
 {define: G frets 3 2 0 0 3 3}
 {define: C/G frets 3 3 2 0 1 0}
 {define: Cadd9 frets X 3 2 0 3 3}
@@ -37,29 +37,23 @@ If you [Am]take your time with [G]me
 {column_break}
 {chorus}
 
-{start_of_ly: Solo}
-\score {
-  <<
-  \new ChordNames \with { additionalPitchPrefix = "add" } { \chordmode { a1:min d1 g2 c2:9^7 g1 } }
-  \new TabStaff \with { 
-    \remove "Clef_engraver" \remove "Bar_number_engraver"
-  } { 
-    a,8 e8 a8 e'4 bis4 b8  | d8 a8 c'8 fis'8 c'4 fis'8 g8 | \break
-    g,4 <g, b, d g d' g'>4. <f g d' g'>8 <f g d' g'>8 <f g d' g'>8 | 
-    g,4 <g, b, d g d' g'>4. <g, g d' g'>8 <g, g d' g'>8 <g, g d' g'>8 | 
-  }
-  >>
-  \layout {
-    indent = #0
-    line-width = #60
-    chordChanges = ##t
-    \context { 
-      \Score \omit BarNumber
-      \override ChordName   #'font-size = #-2
-    }
-  } 
-}
-{end_of_ly}
+{sot: Solo}
+  Am                D
+|-------0---------|-------2-----2-3-|
+|-----------1---0-|-----3---3-------|
+|-----2-----------|---2-------------|
+|---2-------------|-0---------------|
+|-0---------------|-----------------|
+|-----------------|-----------------|
+
+  G         Cadd9   G
+|-----3-----3-3-3-|-----3-----3-3-3-|
+|-----3-----3-3-3-|-----3-----3-3-3-|
+|-----0-----0-0-0-|-----0-----0-0-0-|
+|-----0-----2-2-2-|-----0-----2-2-2-|
+|-----2-----------|-----2-----------|
+|-3---3-----------|-3---3-----------|
+{eot}
 
 {sov: Verse 3}
 It’s an [G]old [D]familiar [G]story
@@ -73,13 +67,12 @@ But we [Am]ask them just the [G]same
 {eov}
 
 {chorus}
-{sov}
+
+{sov: Outro}
 And the [Am]hills turn [D]brown in the summer[G]time
 {eov}
+
 {c: repeat solo}
-
-
-
 
 
 
