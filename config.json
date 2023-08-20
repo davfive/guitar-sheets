@@ -1,4 +1,0 @@
-{
-    "include" : [ "guitar" ],
-    "pdf" : { "papersize" : "letter", "labels": { "comment" : "comment" } }
-}

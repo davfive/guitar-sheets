@@ -1,0 +1,133 @@
+{t: Chord Numbers by Key}
+{st: List of chords in each major key and their associated Nashville Number}
+{sot}
+M:  I            ii          iii          IV            V           vi          vii
+m:  iv           vii          I           ii           iii          IV           vi
+
+{eot}
+{sov: [12] Key of C Major | A Minor}
+{chord: C}
+{chord: Dm}
+{chord: Em}
+{chord: F}
+{chord: G}
+{chord: Am}
+{chord: Bdim}
+{eov}
+
+{sov: [01] Key of G Major | E Minor | F#}
+{chord: G}
+{chord: Am}
+{chord: Bm}
+{chord: C}
+{chord: D}
+{chord: Em}
+{chord: F#dim}
+{eov}
+
+{sov: [02] Key of D Major | B Minor | F# C#}
+{chord: D}
+{chord: Em}
+{chord: F#m}
+{chord: G}
+{chord: A}
+{chord: Bm}
+{chord: C#dim}
+{eov}
+
+{sov: [03] Key of A Major | F# Minor | F# C# G#}
+{chord: A}
+{chord: Bm}
+{chord: Cm}
+{chord: D}
+{chord: E}
+{chord: F#m}
+{chord: G#m}
+{eov}
+
+{sov: [04] Key of E Major | C# Minor | F# C# G# D#}
+{chord: E}
+{chord: F#m}
+{chord: G#m}
+{chord: A}
+{chord: B}
+{chord: C#m}
+{chord: D#m}
+{eov}
+
+{sov: [05] Key of B/Cb Major | G#/Ab Minor | F# C# G# D# A# | Bb Eb Ab Db Gb Cb Fb}
+{chord: B}
+{chord: C#m}
+{chord: D#m}
+{chord: E}
+{chord: F#}
+{chord: G#m}
+{chord: A#m}
+{eov}
+
+{new_page}
+{sot}
+M:  I            ii          iii          IV            V           vi          vii
+m:  iv           vii          I           ii           iii          IV           vi
+
+{eot}
+
+{sov: [06] Key of F#/Gb Major | D#/Eb Minor | F# C# G# D# A# E# | Bb Eb Ab Db Gb Cb}
+{chord: F#}
+{chord: G#m}
+{chord: A#m}
+{chord: B}
+{chord: C#}
+{chord: D#m}
+{chord: E#m}
+{eov}
+
+{sov: [07] Key of C#/Db Major | A#/Bb Minor | F# C# G# D# A# E# B# | Bb Eb Ab Db Gb}
+{chord: C#}
+{chord: D#m}
+{chord: E#m}
+{chord: F#}
+{chord: G#}
+{chord: A#m}
+{chord: B#m}
+{eov}
+
+{sov: [08] Key of Ab Major | F Minor | Bb Eb Ab Db}
+{chord: }
+{chord: m}
+{chord: m}
+{chord: }
+{chord: }
+{chord: m}
+{chord: m}
+{eov}
+
+{sov: [09] Key of Eb Major | C Minor | Bb Eb Ab}
+{chord: }
+{chord: m}
+{chord: m}
+{chord: }
+{chord: }
+{chord: m}
+{chord: m}
+{eov}
+
+{sov: [10] Key of Bb Major | G Minor | Bb Eb}
+{chord: }
+{chord: m}
+{chord: m}
+{chord: }
+{chord: }
+{chord: m}
+{chord: m}
+{eov}
+
+{sov: [11] Key of F Major | D Minor}
+{chord: }
+{chord: m}
+{chord: m}
+{chord: }
+{chord: }
+{chord: m}
+{chord: m}
+{eov}
