@@ -1,8 +1,14 @@
-{t: Chord Numbers by Key}
+{t: Chords and Numbers by Key}
 {st: List of chords in each major key and their associated Nashville Number}
+{define: C#    base-fret 4 frets x 1 3 3 2 1}
+{define: Gm                frets 3 1 0 0 3 3}
+{define: D#m   base-fret 6 frets x 1 3 3 2 1}
+{define: Eb    base-fret 6 frets x 1 3 3 3 1}
+{define: E#dim             frets 1 2 3 1 x x}
+{define: E#m               frets x x 3 1 1 1}
+{define: B#dim base-fret 2 frets x 2 3 4 3 x}
 {sot}
-M:  I            ii          iii          IV            V           vi          vii
-m:  iv           vii          I           ii           iii          IV           vi
+    I            ii          iii          IV            V           vi          vii
 
 {eot}
 {sov: [12] Key of C Major | A Minor}
@@ -42,7 +48,7 @@ m:  iv           vii          I           ii           iii          IV          
 {chord: D}
 {chord: E}
 {chord: F#m}
-{chord: G#m}
+{chord: G#dim}
 {eov}
 
 {sov: [04] Key of E Major | C# Minor | F# C# G# D#}
@@ -52,7 +58,7 @@ m:  iv           vii          I           ii           iii          IV          
 {chord: A}
 {chord: B}
 {chord: C#m}
-{chord: D#m}
+{chord: D#dim}
 {eov}
 
 {sov: [05] Key of B/Cb Major | G#/Ab Minor | F# C# G# D# A# | Bb Eb Ab Db Gb Cb Fb}
@@ -62,13 +68,12 @@ m:  iv           vii          I           ii           iii          IV          
 {chord: E}
 {chord: F#}
 {chord: G#m}
-{chord: A#m}
+{chord: A#dim}
 {eov}
 
 {new_page}
 {sot}
-M:  I            ii          iii          IV            V           vi          vii
-m:  iv           vii          I           ii           iii          IV           vi
+    I            ii          iii          IV            V           vi          vii
 
 {eot}
 
@@ -79,7 +84,7 @@ m:  iv           vii          I           ii           iii          IV          
 {chord: B}
 {chord: C#}
 {chord: D#m}
-{chord: E#m}
+{chord: E#dim}
 {eov}
 
 {sov: [07] Key of C#/Db Major | A#/Bb Minor | F# C# G# D# A# E# B# | Bb Eb Ab Db Gb}
@@ -89,45 +94,45 @@ m:  iv           vii          I           ii           iii          IV          
 {chord: F#}
 {chord: G#}
 {chord: A#m}
-{chord: B#m}
+{chord: B#dim}
 {eov}
 
 {sov: [08] Key of Ab Major | F Minor | Bb Eb Ab Db}
-{chord: }
-{chord: m}
-{chord: m}
-{chord: }
-{chord: }
-{chord: m}
-{chord: m}
+{chord: Ab}
+{chord: Bbm}
+{chord: Cm}
+{chord: Db}
+{chord: Eb}
+{chord: Fm}
+{chord: Gdim}
 {eov}
 
 {sov: [09] Key of Eb Major | C Minor | Bb Eb Ab}
-{chord: }
-{chord: m}
-{chord: m}
-{chord: }
-{chord: }
-{chord: m}
-{chord: m}
+{chord: Eb}
+{chord: Fm}
+{chord: Gm}
+{chord: Ab}
+{chord: Bb}
+{chord: Cm}
+{chord: Ddim}
 {eov}
 
 {sov: [10] Key of Bb Major | G Minor | Bb Eb}
-{chord: }
-{chord: m}
-{chord: m}
-{chord: }
-{chord: }
-{chord: m}
-{chord: m}
+{chord: Bb}
+{chord: Cm}
+{chord: Dm}
+{chord: Eb}
+{chord: F}
+{chord: Gm}
+{chord: Adim}
 {eov}
 
 {sov: [11] Key of F Major | D Minor}
-{chord: }
-{chord: m}
-{chord: m}
-{chord: }
-{chord: }
-{chord: m}
-{chord: m}
+{chord: F}
+{chord: Gm}
+{chord: Am}
+{chord: Bb}
+{chord: C}
+{chord: Dm}
+{chord: Edim}
 {eov}
