@@ -1,4 +1,4 @@
-function chordpro {
+function cho2pdf {
     xchordpro=$(which chordpro)
-    (set -x; "$xchordpro" "$1" && open ${1%.cho}.pdf)
+    (set -x; chordpro "$1" && open ${1%.cho}.pdf)
 }

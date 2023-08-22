@@ -1,0 +1,6 @@
+{
+  "include": ["guitar"],
+  "pdf": {
+    "diagrams": { "width": 11, "height": 11, "hspace": 2, "vspace": 1 }
+  }
+}
