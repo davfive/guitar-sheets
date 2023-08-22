@@ -1,0 +1,8 @@
+{
+  "pdf": {
+    "margintop": 40,
+    "marginbottom": 30,
+    "marginleft": 150,
+    "diagrams": { "width": 8, "height": 8, "hspace": 2, "vspace": 1 }
+  }
+}
